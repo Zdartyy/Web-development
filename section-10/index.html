@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My forms</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <form action="/" method="get">
+          <h2>How can we help you?</h2>
+          <label for="name">Your name</label>
+          <input type="text" name="name" required />
+
+          <label for="email">Your email</label>
+          <input type="email" name="email" required />
+
+          <label for="email" name="email">Your phone</label>
+          <input type="tel" name="phone" required />
+
+          <label for="message">Your message</label>
+          <textarea name="message"></textarea>
+
+          <section class="options">
+          <label>How did you find us?</label>
+          <select name="how" >
+            <option value="poster">Poster</option>
+            <option value="Web Search">Web Search</option>
+            <option value="google">Via Google</option>
+          </select>
+          </section>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
