@@ -75,6 +75,7 @@
 }
 
 #game-board li.disabled {
+    display: grid;
     color: white;
     background-color: rgb(155, 59, 246);
     cursor: default;
